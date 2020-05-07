@@ -1,8 +1,15 @@
 # Evolutionary Stochastic Policy Distillation
-[[arXiv paper](https://arxiv.org/pdf/2004.12909.pdf)]. Code will be released soon.
+
+![image](./docs/cover.png)
+[[arXiv paper](https://arxiv.org/pdf/2004.12909.pdf)]
+
+## TL;DR
+
+A self imitation algorithm called ESPN is proposed to solve the goal-conditioned reward sparse tasks. ESPN learns a target policy efficiently from a series of its stochastic variants in a supervised learning manner. Experiments on the MuJuCo robotics control suite show its superior performance over baseline Hindsight Experience Replay (HER) and evolution strategies (ES).
+
+Code will be made available soon.
 
 ## Reference
-## Bibtex
 ```
 @inproceedings{sun2020espd,
   title={Evolutionary Stochastic Policy Distillation},
